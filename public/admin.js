@@ -34,6 +34,7 @@ function renderBookManagement(book) {
             </div>
         </div>
     `;
+    //<input id="inputQuantity${book.id}" value="${book.quantity}"></input> // demonstration for a friend
 }
 
 function renderBookManagementEditButton(book) {
@@ -57,6 +58,15 @@ function editBook(event) {
   //console.log(cardInQuestion); // we now have access to the card parent of the button
 
   // grab each element from the card
+  
+  //Simplification in order as follows.
+  //document.querySelector(`#card${this.magicID} .card-img-top`)
+  //document.querySelector(`#card${ButtonElement.magicID} .card-img-top`);
+  //document.querySelector(`#card1 .card-img-top`);
+  //document.querySelector(`#element  (find any child with) .class`);
+  //document.querySelector(selector);
+  //element
+
   let imgBanner = document.querySelector(`#card${this.magicID} .card-img-top`);
   let h5CardTitle = document.querySelector(`#card${this.magicID} .card-title`);
   let h6ID = document.querySelector(`#card${this.magicID} #identification`);
@@ -174,24 +184,24 @@ function cancelEdit(event) {
     .querySelectorAll(`#card${this.magicID} .temporaryForms`)
     .forEach((element) => element.remove());
 
-  console.log(this);
-  console.log(event);
+  // console.log(this);
+  // console.log(event);
 }
 
 function submitEdit(event) {
-  console.log(this);
-  console.log(event);
+  // console.log(this);
+  // console.log(event);
 
   let ourID = Number(document.querySelector(`#card${this.magicID} #inputID`).value)
-  console.log(typeof ourID)
-  console.log(document.querySelector(`#card${this.magicID} #inputID`).value)
-  console.log(typeof document.querySelector(`#card${this.magicID} #inputID`).value)
+  // console.log(typeof ourID)
+  // console.log(document.querySelector(`#card${this.magicID} #inputID`).value)
+  // console.log(typeof document.querySelector(`#card${this.magicID} #inputID`).value)
   
-  console.log(document.querySelector(`#card${this.magicID} #inputTitle`).value)
-  console.log(document.querySelector(`#card${this.magicID} #inputYear`).value)
-  console.log(document.querySelector(`#card${this.magicID} #inputDescription`).value)
-  console.log(document.querySelector(`#card${this.magicID} #inputAvailableQuantity`).value)
-  console.log(document.querySelector(`#card${this.magicID} #inputImgSrc`).value)
+  // console.log(document.querySelector(`#card${this.magicID} #inputTitle`).value)
+  // console.log(document.querySelector(`#card${this.magicID} #inputYear`).value)
+  // console.log(document.querySelector(`#card${this.magicID} #inputDescription`).value)
+  // console.log(document.querySelector(`#card${this.magicID} #inputAvailableQuantity`).value)
+  // console.log(document.querySelector(`#card${this.magicID} #inputImgSrc`).value)
 
   fetch('http://localhost:3001/updateBook', {
     method: 'PATCH',
