@@ -26,3 +26,16 @@ function renderBook(book) {
 }
 
 main()
+
+async function updateBook3(newName){
+let response = await fetch('http://127.0.0.1:3001/updateBook', {
+    method: "PATCH",
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+        "id": 3,
+        "title": newName,
+    }),
+});
+let updatedBook = await response.json();
+console.log(updatedBook)
+}
