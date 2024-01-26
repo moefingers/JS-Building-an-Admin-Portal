@@ -4,17 +4,17 @@
       "id": 1,
       "title": "The Shinobi Initiative",
       "description": "The reality-bending adventures of a clandestine service agency in the year 2166",
-      "year": 2014,
-      "quantity": 10,
-      "imageURL": "/assets/shinobi-initiative.jpeg"
+      "year": "2014",
+      "quantity": "444",
+      "imageURL": "http://127.0.0.1:3000/assets/shinobi-initiative.jpeg"
     },
     {
       "id": 2,
       "title": "Tess the Wonder Dog",
       "description": "The tale of a dog who gets super powers",
-      "year": 2007,
-      "quantity": 3,
-      "imageURL": "/assets/tess.jpg"
+      "year": "2007",
+      "quantity": "3",
+      "imageURL": "http://127.0.0.1:3000/assets/tess.jpg"
     },
     {
       "id": 3,

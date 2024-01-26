@@ -94,16 +94,16 @@ function editBook(event) {
   h5CardTitle.style = "display:none";
 
   //create input for ID
-  let inputID = document.createElement("input");
-  inputID.className = "temporaryForms list-inline-item";
-  inputID.id = "inputID";
-  inputID.value = h6ID.textContent;
-  inputID.style.width = "50%";
-  inputID.style.float = "right";
-  inputID.style.margin = "0";
-  h6ID.insertAdjacentElement("afterend", inputID);
-  //    h6ID.remove()
-  h6ID.style = "display:none";
+  // let inputID = document.createElement("input");
+  // inputID.className = "temporaryForms list-inline-item";
+  // inputID.id = "inputID";
+  // inputID.value = h6ID.textContent;
+  // inputID.style.width = "50%";
+  // inputID.style.float = "right";
+  // inputID.style.margin = "0";
+  // h6ID.insertAdjacentElement("afterend", inputID);
+  // //    h6ID.remove()
+  // h6ID.style = "display:none";
 
   //create input for year
   let inputYear = document.createElement("input");
@@ -192,7 +192,7 @@ function submitEdit(event) {
   // console.log(this);
   // console.log(event);
 
-  let ourID = Number(document.querySelector(`#card${this.magicID} #inputID`).value)
+  let ourID = Number(document.querySelector(`#card${this.magicID} #identification`).textContent)
   // console.log(typeof ourID)
   // console.log(document.querySelector(`#card${this.magicID} #inputID`).value)
   // console.log(typeof document.querySelector(`#card${this.magicID} #inputID`).value)
