@@ -5,8 +5,8 @@
         "version": "1.0.0",
         "title": "Book API"
     },
-    "host": "localhost:3001",
-    "basePath": "/",
+    "host": "unlv-museum.infinite-syndicate.com",
+    "basePath": "/api/admin-portal",
     "schemes": [
         "http"
     ],
