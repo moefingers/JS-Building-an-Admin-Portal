@@ -31,22 +31,6 @@
       "year": "2010",
       "quantity": "4",
       "imageURL": "/assets/warp.jpeg"
-    },
-    {
-      "id": 5,
-      "title": "Neffffd Title",
-      "year": "339",
-      "quantity": "0",
-      "imageURL": "https://libreshot.com/wp-content/uploads/2018/03/book-pages.jpg",
-      "description": "ffff."
-    },
-    {
-      "id": 6,
-      "title": "New Book Title",
-      "year": "9999",
-      "quantity": "0",
-      "imageURL": "https://libreshot.com/wp-content/uploads/2018/03/book-pages.jpg",
-      "description": "New book description."
     }
   ]
 }
