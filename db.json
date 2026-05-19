@@ -6,7 +6,7 @@
       "description": "The reality-bending adventures of a clandestine service agency in the year 2166",
       "year": "2014",
       "quantity": "444",
-      "imageURL": "http://127.0.0.1:3000/assets/shinobi-initiative.jpeg"
+      "imageURL": "/assets/shinobi-initiative.jpeg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "description": "The tale of a dog who gets super powers",
       "year": "200733",
       "quantity": "3",
-      "imageURL": "http://127.0.0.1:3000/assets/tess.jpg"
+      "imageURL": "/assets/tess.jpg"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "description": "A time-space anomaly folds matter from different points in earth's history in on itself, sending six unlikely heroes on a race against time as worlds literally collide.",
       "year": "2010",
       "quantity": "4",
-      "imageURL": "http://127.0.0.1:3000/assets/warp.jpeg"
+      "imageURL": "/assets/warp.jpeg"
     },
     {
       "id": 5,
