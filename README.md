@@ -1,8 +1,8 @@
 <!-- unlv-museum-banner-start -->
 <a href="https://unlv-museum.infinite-syndicate.com/js-exercises/admin-portal" target="_blank" rel="noopener">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://unlv-museum.infinite-syndicate.com/github-banners/admin-portal?theme=dark&v=71ecc5ee8d">
-    <img src="https://unlv-museum.infinite-syndicate.com/github-banners/admin-portal?theme=light&v=71ecc5ee8d" alt="Book inventory admin — JavaScript frontend with Bootstrap, Express + JSON-file backend, Fetch-driven CRUD against a starter API." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://unlv-museum.infinite-syndicate.com/github-banners/admin-portal?theme=dark&v=c4fb0c1835">
+    <img src="https://unlv-museum.infinite-syndicate.com/github-banners/admin-portal?theme=light&v=c4fb0c1835" alt="Book inventory admin — JavaScript frontend with Bootstrap, Express + JSON-file backend, Fetch-driven CRUD against a starter API." width="100%">
   </picture>
 </a>
 
