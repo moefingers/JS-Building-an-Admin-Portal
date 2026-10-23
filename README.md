@@ -2,7 +2,7 @@
 <a href="https://unlv-museum.infinite-syndicate.com/js-exercises/admin-portal" target="_blank" rel="noopener">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://unlv-museum.infinite-syndicate.com/github-banners/admin-portal?theme=dark&v=7d3f711c61">
-    <img src="https://unlv-museum.infinite-syndicate.com/github-banners/admin-portal?theme=light&v=7d3f711c61" alt="Book inventory admin — JavaScript frontend with Bootstrap, Express + JSON-file backend, Fetch-driven CRUD against a starter API." width="100%">
+    <img src="https://unlv-museum.recanon.com/github-banners/admin-portal?theme=light&v=7d3f711c61" alt="Book inventory admin — JavaScript frontend with Bootstrap, Express + JSON-file backend, Fetch-driven CRUD against a starter API." width="100%">
   </picture>
 </a>
 
